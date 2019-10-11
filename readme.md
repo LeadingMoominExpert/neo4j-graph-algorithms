@@ -57,4 +57,6 @@ You still need to create the excecutable JAR for your Neo4j to be able to used t
 - Apply the changes and close the dialog.
 - From Build select Build Artifacts and IntelliJ builds your target JAR-file to be used as a Neo4j plugin
 
+In case of a FileNotFoundException (Permission denied), make sure your user has the rights to read and write to the target directory.
+
 Restart Neo4j by running `service neo4j restart`. Test if you successfully imported algo to Neo4j by calling `CALL algo.list()` in the browser UI. Feel free to shut down Neo4j if you're not using it `service neo4j stop`.
