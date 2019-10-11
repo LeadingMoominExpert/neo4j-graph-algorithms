@@ -14,6 +14,7 @@
     <description>Efficient Graph Algorithms for Neo4j - Documentation</description>
 
     <properties>
+        <!--suppress UnresolvedMavenProperty -->
         <docsversion>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}</docsversion>
     </properties>
 

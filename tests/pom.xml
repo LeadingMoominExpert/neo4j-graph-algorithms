@@ -132,6 +132,12 @@
             <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.neo4j</groupId>
+            <artifactId>graph-algorithms-algo</artifactId>
+            <version>3.5.4.0</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 

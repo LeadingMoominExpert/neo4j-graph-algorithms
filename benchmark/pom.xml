@@ -103,6 +103,12 @@
             <artifactId>mockito-core</artifactId>
             <version>2.23.4</version>
         </dependency>
+        <dependency>
+            <groupId>org.neo4j</groupId>
+            <artifactId>graph-algorithms-algo</artifactId>
+            <version>3.5.4.0</version>
+            <scope>compile</scope>
+        </dependency>
 
     </dependencies>
 

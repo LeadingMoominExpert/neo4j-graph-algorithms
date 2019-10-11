@@ -45,6 +45,11 @@ import java.util.stream.Stream;
 /**
  * @author mknblch
  */
+
+/**
+ * edited by LeadingMoominExpert
+ *
+ */
 public class ShortestPathProc {
 
     public static final String DEFAULT_TARGET_PROPERTY = "sssp";
